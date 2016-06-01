@@ -1,0 +1,8 @@
+*.gif
+example
+node_modules
+.DS_Store
+dist
+*.log
+webpack.config.js
+server.js
