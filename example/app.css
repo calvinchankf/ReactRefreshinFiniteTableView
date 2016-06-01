@@ -1,0 +1,19 @@
+body {
+  background-color: #EEEEEE;
+}
+
+.title {
+  font-size: large;
+  height: 50px;
+  line-height: 50px;
+}
+
+.tableView {
+  height: calc( 100vh - 100px );
+  overflow-y: scroll;
+}
+
+.tableView .list-group-item:first-child,
+.tableView .list-group-item:last-child {
+  border-radius: 0px;
+}

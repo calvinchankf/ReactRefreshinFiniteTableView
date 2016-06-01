@@ -1,0 +1,14 @@
+.infinit-table-spinner {
+  margin: 16px auto 16px auto;
+  height: 32px;
+  width: 32px;
+  animation: rotate-spinner 1s infinite linear;
+  border: 2px solid #3498db;
+  border-right-color: transparent;
+  border-radius: 50%;
+}
+
+@keyframes rotate-spinner {
+  0%    { transform: rotate(0deg); }
+  100%  { transform: rotate(360deg); }
+}
