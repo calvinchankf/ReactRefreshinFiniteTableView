@@ -1,4 +1,7 @@
 # React-Refresh-Infinite-TableView
+
+[![npm version](https://img.shields.io/npm/v/react-refresh-infinite-tableview.svg?style=flat-square)](https://www.npmjs.com/package/react-refresh-infinite-tableview)
+
 ___
 
 ![demo](demo.gif)
@@ -9,6 +12,15 @@ ___
 - Pull to Load More
 - Fully Customizable Loading Indicator
 - Subclass-able React Component
+
+### How to Install 😍?
+
+0. via npm install
+```
+npm install --save react-refresh-infinite-tableview
+```
+1. or manually
+  - extract the ```ReactRefreshInfiniteTableView.js``` and ```spinner.css``` from ```lib/```, and use them in your projects.
 
 ### How to Use 🤔?
 
@@ -105,10 +117,11 @@ import ReactRefreshInfiniteTableView from 'react-refresh-infinite-tableview'
 />
 ```
 
-### Demo
+### Demo 😮
 
-- run the demo
+- Run the demo with
 ```
 npm install
 npm start
 ```
+then go to http://localhost:3000/
