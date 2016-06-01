@@ -1,5 +1,5 @@
 {
-  "name": "react-refresh-infinite-tableView",
+  "name": "react-refresh-infinite-tableview",
   "version": "1.0.0",
   "description": "A Subclass-able React Component to make a simple Pull-To-Refresh and Infinite TableView",
   "main": "./lib/ReactRefreshInfiniteTableView.js",
@@ -16,8 +16,7 @@
     "url": "https://github.com/calvinchankf/ReactRefreshinFiniteTableView/issues"
   },
   "scripts": {
-    "start": "node server",
-    "postinstall": "node deploy"
+    "start": "node server"
   },
   "keywords": [
     "react",
@@ -30,6 +29,13 @@
     "infinite"
   ],
   "dependencies": {
+  },
+  "devDependencies": {
+    "babel-preset-react-hmre": "^1.1.0",
+    "react-addons-test-utils": "^0.14.3",
+    "react-transform-hmr": "^1.0.0",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-hot-middleware": "^2.2.0",
     "babel-cli": "^6.4.0",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
@@ -38,6 +44,7 @@
     "bootstrap": "^3.3.6",
     "css-loader": "^0.23.1",
     "express": "^4.13.4",
+    "file-loader": "^0.8.5",
     "html-webpack-plugin": "^1.7.0",
     "json-loader": "^0.5.4",
     "react": "^0.14.3",
@@ -46,16 +53,5 @@
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1"
-  },
-  "devDependencies": {
-    "babel-preset-react-hmre": "^1.1.0",
-    "react-addons-test-utils": "^0.14.3",
-    "react-transform-hmr": "^1.0.0",
-    "webpack-dev-middleware": "^1.2.0",
-    "webpack-hot-middleware": "^2.2.0"
-  },
-  "peerDependencies": {
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3"
   }
 }
