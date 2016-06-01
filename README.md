@@ -13,7 +13,7 @@ ___
 ### How to Use 🤔?
 
 ```
-import ReactRefreshInfiniteTableView from 'ReactRefreshInfiniteTableView.js'
+import ReactRefreshInfiniteTableView from 'ReactRefreshInfiniteTableView'
 ```
 
 - Use Default Spinners
