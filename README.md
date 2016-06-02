@@ -1,7 +1,7 @@
 # React-Refresh-Infinite-TableView
 
 [![npm version](https://img.shields.io/npm/v/react-refresh-infinite-tableview.svg?style=flat-square)](https://www.npmjs.com/package/react-refresh-infinite-tableview)
-
+[![npm downloads](https://img.shields.io/npm/dm/react-refresh-infinite-tableview.svg?style=flat-square)](https://www.npmjs.com/package/react-refresh-infinite-tableview)
 ___
 
 ![demo](demo.gif)
