@@ -130,3 +130,5 @@ npm install
 npm start
 ```
 then go to http://localhost:3000/
+
+- P.S. In the demo, you may notice that the page will auto-refresh after you change the code because the demo is based on my another repo [React-SPA-Starter](https://github.com/calvinchankf/React-SPA-Starter), which is a very handy starter-kit for react dev.
