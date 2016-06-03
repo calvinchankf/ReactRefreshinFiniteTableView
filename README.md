@@ -117,6 +117,11 @@ import ReactRefreshInfiniteTableView from 'react-refresh-infinite-tableview'
 />
 ```
 
+### TODO:
+
+- Customizable default spinner
+- Trigger scroll-to-top event when pull down if the tableview is already at the top
+
 ### Demo 😮
 
 - Run the demo with
