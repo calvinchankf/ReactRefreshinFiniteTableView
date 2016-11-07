@@ -1,8 +1,8 @@
 {
   "name": "react-refresh-infinite-tableview",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Subclass-able React Component to make a simple Pull-To-Refresh and Infinite TableView",
-  "main": "./lib/ReactRefreshInfiniteTableView.js",
+  "main": "./lib/rri.js",
   "author": {
     "name": "calvinchankf",
     "email": "chan9118kin@gmail.com"
