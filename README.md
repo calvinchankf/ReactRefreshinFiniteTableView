@@ -20,9 +20,11 @@ ___
 npm install --save react-refresh-infinite-tableview
 ```
 1. or manually
-  - extract the ```ReactRefreshInfiniteTableView.js``` and ```spinner.css``` from ```lib/```, and use them in your projects.
+  - extract the ```rri.js``` and ```spinner.css``` from ```lib/```, and use them in your projects.
 
 ### How to Use 🤔?
+- You can use it with default spinners or your custom spinners
+- Below are some setups, if you are looking for detail, please take a look at /examples
 
 ```
 import ReactRefreshInfiniteTableView from 'react-refresh-infinite-tableview'
@@ -31,26 +33,23 @@ import ReactRefreshInfiniteTableView from 'react-refresh-infinite-tableview'
 - Use Default Spinners
 
   - subclass the ```ReactRefreshInfiniteTableView```
-  ```js
+  ```es6
   class ExampleTableView extends ReactRefreshInfiniteTableView {
     //...
   }
   ```
 
  - attach an scroll event listener to your scrollview
- ```js
+ ```es6
  <div className="tableView" onScroll={this.viewDidScroll}>
  ```
  - set props to your tableview component
- ```js
- <ExampleTableView
-   dataSource={this.state.data}
-   onScrollToTop={this.handleScrollToTop}
-   onScrollToBottom={this.handleScrollToBottom}
+ ```es6
+ <ExampleTableView dataSource={this.state.data} onScrollToTop={this.handleScrollToTop} onScrollToBottom={this.handleScrollToBottom}
  />
  ```
  - handle scroll events
- ```js
+ ```es6
  // handle onScrollToTop
  handleScrollToTop(completed) {
    // refresh data
@@ -60,6 +59,7 @@ import ReactRefreshInfiniteTableView from 'react-refresh-infinite-tableview'
    completed()
    this.setState({data: newData})
  }
+ 
  // handle onScrollToBottom
  handleScrollToBottom(completed) {
    // load more data
@@ -75,11 +75,11 @@ import ReactRefreshInfiniteTableView from 'react-refresh-infinite-tableview'
 - Use your own loading indicators
   - first, you need to follow the basic set up as the above(use default spinner)
   - set useDefaultIndicator to false for your component
-  ```js
+  ```es6
   useDefaultIndicator={false}
   ```
   - construct your own indicators with jsx
-  ```js
+  ```es6
   // customize your Refresh Indicator here
   refreshIndicator() {
     if (this.state.isRefreshing) {
@@ -100,7 +100,7 @@ import ReactRefreshInfiniteTableView from 'react-refresh-infinite-tableview'
   }
   ```
   - render your indicators with your tableview
-  ```js
+  ```es6
   <div className="tableView" onScroll={this.viewDidScroll}>
     {this.refreshIndicator()}
     {cells}
@@ -110,11 +110,8 @@ import ReactRefreshInfiniteTableView from 'react-refresh-infinite-tableview'
   - see ExampleTableView2 for details
 
 - You can also disable the scrollToTop or scrollToBottom by just by just not setting the props.
-```js
-<ExampleTableView
-  dataSource={this.state.data}
-  onScrollToBottom={this.handleScrollToBottom}
-/>
+```es6
+<ExampleTableView dataSource={this.state.data} onScrollToBottom={this.handleScrollToBottom} />
 ```
 
 ### TODO:
