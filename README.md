@@ -1,3 +1,5 @@
+## Thank you guys so much for all your support. The project has been discontinued. Instead, I will make another one with better performance on both desktop and mobile
+
 # React-Refresh-Infinite-TableView
 
 [![npm version](https://img.shields.io/npm/v/react-refresh-infinite-tableview.svg?style=flat-square)](https://www.npmjs.com/package/react-refresh-infinite-tableview)
